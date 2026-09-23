@@ -1,4 +1,4 @@
-public class Main {
+public class A1 {
     public static void main(String[] args) {
         int[] scores = {78, 91, 65, 88, 73, 95, 54, 82, 69, 91};
 

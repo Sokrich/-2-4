@@ -1,4 +1,4 @@
-public class p2 {
+public class A2 {
     public static void main(String[] args) {
         int[][] grades = {
                 {78, 91, 88},
