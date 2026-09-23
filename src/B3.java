@@ -28,11 +28,11 @@ public class B3 {
 
         B3 enrollment = new B3(student, course);
 
-        System.out.println("--- Тест корректной оценки ---");
+        System.out.println("Тест корректной оценки:");
         enrollment.assignGrade(95);
         enrollment.printSummary();
 
-        System.out.println("\n--- Тест некорректной оценки ---");
+        System.out.println("Тест некорректной оценки:");
         try {
             enrollment.assignGrade(120);
         } catch (IllegalArgumentException e) {

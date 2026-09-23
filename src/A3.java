@@ -33,7 +33,7 @@ public class A3 {
             }
         }
 
-        System.out.println("\n--- Результаты анализа текста ---");
+        System.out.println("Результаты анализа текста:");
         System.out.println("Количество вхождений слова 'Java' (без учета регистра): " + javaCount);
         System.out.println("Количество слов длиной более 4 символов: " + longWordsCount);
 

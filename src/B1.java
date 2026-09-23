@@ -32,14 +32,14 @@ public class B1 {
     }
 
     public static void main(String[] args) {
-        B1 student = new B1("Алексей", "S12345", 4.2);
+        B1 student = new B1("Касым", "S12345", 3.2);
 
-        System.out.println("--- До изменения GPA ---");
+        System.out.println("До изменения GPA:");
         student.printInfo();
 
         student.improveGpa(0.5);
 
-        System.out.println("--- После улучшения GPA ---");
+        System.out.println("После улучшения GPA:");
         student.printInfo();
     }
 }

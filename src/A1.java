@@ -37,7 +37,7 @@ public class A1 {
 
         double average = (double) sum / scores.length;
 
-        System.out.println("\n--- Результаты анализа ---");
+        System.out.println("Результаты анализа:");
         System.out.println("Минимальный балл: " + min);
         System.out.println("Максимальный балл: " + max);
         System.out.println("Сумма баллов: " + sum);

@@ -7,7 +7,7 @@ public class A2 {
                 {81, 76, 85}
         };
 
-        System.out.println("Таблица оценок студентов (по дисциплинам):");
+        System.out.println("Таблица оценок студентов:");
         System.out.println("Студент | Предмет 1 | Предмет 2 | Предмет 3");
         System.out.println("---------------------------------------");
         for (int i = 0; i < grades.length; i++) {
